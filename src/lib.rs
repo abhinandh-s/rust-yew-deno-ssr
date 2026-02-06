@@ -1,5 +1,3 @@
-use route::Route;
-
 use wasm_bindgen::prelude::*;
 use yew::{LocalServerRenderer, prelude::*};
 use yew_router::history::{AnyHistory, History, MemoryHistory};
@@ -9,7 +7,6 @@ use self::pages::articles::Article;
 
 mod pages;
 mod components;
-mod route;
 mod utils;
 
 #[function_component(App)]
@@ -64,10 +61,27 @@ pub fn run_app() {
     // the 'render' function be called manually.
 }
 
+#[derive(Clone, Routable, PartialEq)]
+pub enum Route {
+    #[at("/")]
+    Home,
+    #[at("/articles")]
+    ArticlesRoute,
+    // Add :month here
+    #[at("/articles/:year/:month/:id")]
+    Articles { year: String, month: String, id: String },
+    #[not_found]
+    #[at("/404")]
+    NotFound,
+}
+
 fn switch(routes: Route) -> Html {
     match routes {
         Route::Home => html! { <pages::home::HomePage /> },
-        Route::Articles { id } => html! { <Article post_id={id} /> },
+        // Capture year, month, and id from the URL
+        Route::Articles { year, month, id } => html! { 
+            <Article year={year} month={month} post_id={id} /> 
+        },
         Route::ArticlesRoute => html! { <pages::articles::ArticleIndex /> },
         Route::NotFound => html! { <pages::_404::NotFound /> },
     }

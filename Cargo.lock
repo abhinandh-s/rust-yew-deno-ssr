@@ -267,6 +267,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c3e64b0cc0439b12df2fa678eae89a1c56a529fd067a9115f7827f1fffd22b32"
 
 [[package]]
+name = "color-palette"
+version = "0.1.0"
+dependencies = [
+ "color-palette-macros",
+]
+
+[[package]]
+name = "color-palette-macros"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.114",
+]
+
+[[package]]
 name = "colorchoice"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1986,6 +2002,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "yew-deno"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "color-palette",
+ "comrak",
+ "gray_matter",
+ "pulldown-cmark",
+ "serde",
+ "serde_json",
+ "walkdir",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "yew",
+ "yew-router",
+]
+
+[[package]]
 name = "yew-macro"
 version = "0.22.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2028,24 +2063,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.114",
-]
-
-[[package]]
-name = "yew-ssr-deno"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "comrak",
- "gray_matter",
- "pulldown-cmark",
- "serde",
- "serde_json",
- "walkdir",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
- "yew",
- "yew-router",
 ]
 
 [[package]]

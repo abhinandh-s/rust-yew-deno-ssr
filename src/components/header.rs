@@ -1,7 +1,7 @@
 use yew::prelude::*;
 use yew_router::prelude::Link;
 
-use crate::route::Route;
+use crate::Route;
 
 const LINK_CLASS: &str = "hover:text-just-red aria-[current]:text-just-red";
 const MOBILE_LINK_CLASS: &str = "block py-2 px-4 hover:text-just-red aria-[current]:text-just-red";

@@ -1,5 +1,5 @@
 [package]
-name = "yew-ssr-deno"
+name = "yew-deno"
 version = "0.1.0"
 edition = "2024"
 
@@ -27,4 +27,4 @@ chrono = "0.4"
 gray_matter = "0.3.2"
 walkdir = "2.5.0"
 comrak = "0.50"
-
+color-palette = {  path = "../color-palette", features = ["derive", "css"] }

@@ -5,6 +5,10 @@ use std::{
 };
 
 fn main() {
+
+    generated_css();
+
+
     let articles_dir = Path::new("articles/published");
     let out_file = Path::new("src/utils/generated.rs");
 
@@ -361,4 +365,9 @@ fn generate_atom_feed() -> String {
         updated = updated,
         entries = entries
     )
+}
+
+fn generated_css() {
+    println!("cargo:rerun-if-changed=always-rerun");
+    println!("This runs on every build attempt.");
 }

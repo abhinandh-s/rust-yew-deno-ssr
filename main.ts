@@ -1,9 +1,9 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 import { serveDir } from "https://deno.land/std@0.224.0/http/file_server.ts";
-import init, { render } from "./pkg/yew_ssr_deno.js";
+import init, { render } from "./pkg/yew_deno.js";
 
 // Initialize Wasm
-const wasmUrl = new URL("./pkg/yew_ssr_deno_bg.wasm", import.meta.url);
+const wasmUrl = new URL("./pkg/yew_deno_bg.wasm", import.meta.url);
 await init(wasmUrl);
 
 console.log("Server started running...");
@@ -50,12 +50,12 @@ if (url.pathname.endsWith(".json") || url.pathname.endsWith(".xml")) {
     
     <link rel="stylesheet" href="/static/output.css"/>
   
-    <link rel="modulepreload" href="/pkg/yew_ssr_deno.js">
-    <link rel="preload" href="/pkg/yew_ssr_deno_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous">
+    <link rel="modulepreload" href="/pkg/yew_deno.js">
+    <link rel="preload" href="/pkg/yew_deno_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous">
 
     <script type="module">
-      import init from "/pkg/yew_ssr_deno.js";
-      init("/pkg/yew_ssr_deno_bg.wasm");
+      import init from "/pkg/yew_deno.js";
+      init("/pkg/yew_deno_bg.wasm");
     </script>
 
     <link rel="icon" href="/static/favicon/favicon.png" type="image/png" />

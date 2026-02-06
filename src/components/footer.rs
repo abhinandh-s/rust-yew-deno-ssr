@@ -1,5 +1,10 @@
 use yew::prelude::*;
 
+const GIT_HUB_USERNAME: &str = "abhinandh-s";
+const SITE_REPO: &str = "abhinandhs.deno.dev";
+const X_USERNAME: &str = "abhinandh_s_";
+const EMAIL_ID: &str = "abhinandhsuby@proton.me";
+
 #[function_component(Footer)]
 pub fn footer() -> Html {
     html! {
@@ -10,7 +15,7 @@ pub fn footer() -> Html {
         <div class="flex justify-center">
           <a
             class="p-2"
-            href="https://github.com/abhinandh-s/"
+            href={format!("https://github.com/{}/", GIT_HUB_USERNAME)}
             target="_blank"
           >
             <svg
@@ -29,7 +34,7 @@ pub fn footer() -> Html {
               </path>
             </svg>
           </a>
-          <a class="p-2" href="mailto:abhinandhsuby@proton.me">
+          <a class="p-2" href={format!("mailto:{}", EMAIL_ID)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -65,7 +70,7 @@ pub fn footer() -> Html {
               <circle cx="5" cy="19" r="1"></circle>
             </svg>
           </a>
-          <a class="p-2" href="https://x.com/abhinandh_s_" target="_blank">
+          <a class="p-2"  href={format!("https://x.com/{}", X_USERNAME)} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -106,8 +111,8 @@ pub fn footer() -> Html {
           {"and is available"} {" "}
           <a
             class="text-just-red"
-            href="https://github.com/abhinandh-s/abhinandh-s.github.io"
-            aria-label="GitHub Profile"
+            href={format!("https://github.com/{}/{}", GIT_HUB_USERNAME, SITE_REPO)}
+            aria-label="Link to the source of this site"
             target="_blank"
           >
           { "here" }
