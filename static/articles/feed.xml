@@ -9,14 +9,74 @@
     
       <item>
         <title><![CDATA[Hello World]]></title>
-        <link>https://abhinandh-s.github.io/articles/hello-world</link>
-        <guid>https://abhinandh-s.github.io/articles/hello-world</guid>
-        <pubDate>2026-02-01T00:00:00Z</pubDate>
+        <link>https://abhinandh-s.github.io/articles/hello-world-01</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-01</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
         <description><![CDATA[My first blog entry.]]></description>
-        <content:encoded><![CDATA[<h1>Hello, World!</h1>
-<p>Welcome to my first blog post! This content is written in Markdown and styled
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
 using GitHub Flavored Markdown.</p>
-<h2>Syntax highlighting</h2>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
 </span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
 </span><span style="color:#c0c5ce;">}
@@ -25,7 +85,517 @@ using GitHub Flavored Markdown.</p>
 <ul>
 <li><strong>Light and Dark Mode</strong> support</li>
 <li>Code highlighting:
-<pre style="background-color:#2b303b;"><code class="language-ts"><span style="color:#c0c5ce;">console.log(&quot;Hello, TypeScript!&quot;);
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-02</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-02</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-03</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-03</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-04</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-04</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-05</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-05</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-06</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-06</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
+</span></code></pre>
+</li>
+</ul>
+]]></content:encoded>
+      </item>
+
+      <item>
+        <title><![CDATA[Hello World]]></title>
+        <link>https://abhinandh-s.github.io/articles/hello-world-10</link>
+        <guid>https://abhinandh-s.github.io/articles/hello-world-10</guid>
+        <pubDate>2024-06-26T00:00:00Z</pubDate>
+        <description><![CDATA[My first blog entry.]]></description>
+        <content:encoded><![CDATA[<p>Welcome to my first blog post! This content is written in Markdown and styled
+using GitHub Flavored Markdown.</p>
+<h1>Heading 01</h1>
+<h2>Heading 02</h2>
+<h3>Heading 03</h3>
+<h4>Heading 04</h4>
+<h5>Heading 05</h5>
+<h6>Heading 06</h6>
+<h2>Unordered Lists</h2>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Sub-item A (indent 2 or 4 spaces)</li>
+<li>Sub-item B</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h2>Ordered Lists</h2>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing
+<ol>
+<li>Nested ordered item</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>Block quote</p>
+</blockquote>
+<blockquote>
+<p>[!IMPORTANT]
+This is important
+Important	Purple	.markdown-alert-important</p>
+</blockquote>
+<blockquote>
+<p>[!NOTE]
+This is a note
+Note	Blue	.markdown-alert-note</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+This is a tip
+Tip	Green	.markdown-alert-tip</p>
+</blockquote>
+<blockquote>
+<p>[!WARNING]
+This is a warning
+Warning	Yellow/Orange	.markdown-alert-warning</p>
+</blockquote>
+<blockquote>
+<p>[!CAUTION]
+This is a caution
+Caution  Red 	.markdown-alert-caution</p>
+</blockquote>
+<h2>CheckBoxes</h2>
+<ul>
+<li>[x] Done</li>
+<li>[ ] Not done</li>
+</ul>
+<h2>Spoilers</h2>
+<p>Lorem Ipsum is simply ||dummy text|| of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<pre style="background-color:#2b303b;"><code class="language-Rust"><span style="color:#96b5b4;">main</span><span style="color:#c0c5ce;">() {
+</span><span style="color:#c0c5ce;">    println!(&quot;</span><span style="color:#a3be8c;">hello world!</span><span style="color:#c0c5ce;">&quot;);
+</span><span style="color:#c0c5ce;">}
+</span></code></pre>
+<h2>Features</h2>
+<ul>
+<li><strong>Light and Dark Mode</strong> support</li>
+<li>Code highlighting:
+<pre style="background-color:#2b303b;"><code class="language-javascript"><span style="color:#c0c5ce;">console.</span><span style="color:#96b5b4;">log</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">Hello, JavaScript!</span><span style="color:#c0c5ce;">&quot;);
 </span></code></pre>
 </li>
 </ul>
